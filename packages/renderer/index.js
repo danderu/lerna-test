@@ -4,7 +4,6 @@ import Button from 'ui-components'
 const Renderer = (props) => {
   return (
     <div className='renderer'>
-      <h1>Buttons test</h1>
       <Button value={props.value} />
       <Button value={props.value} />
       <Button value={props.value} />
